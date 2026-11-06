@@ -104,11 +104,11 @@ All 17 endpoints are now live at `http://localhost:8000`.
 
 | Endpoint | Path | Returns |
 |---|---|---|
-| Product Details | `/products/details` | Everything about one product in a single call |
+| Product Details | `/products/details` | Everything about one product, plus its in-store aisle & map pin with a `store` |
 | Search Products | `/products/search` | 36 products per page; filter by brand, diet, allergens, specials |
 | Autocomplete | `/products/autocomplete` | Search suggestions as you type |
 | Product by Barcode | `/products/barcode` | Scan a barcode, get the product with live price |
-| Bulk Products | `/products/bulk` | Up to 20 products with prices and ratings in one call |
+| Bulk Products | `/products/bulk` | Up to 20 products with prices, ratings and in-store aisle (with a `store`) in one call |
 | Product Nutrition | `/products/nutrition` | Nutrition panel, ingredients, allergens, Health Star Rating |
 | Product Reviews | `/products/reviews` | Customer reviews with star breakdown, up to 50 per page |
 | Product Stock in Stores | `/products/stock` | Which nearby stores have it on the shelf right now |
